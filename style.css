@@ -36,12 +36,17 @@ img {
     box-shadow: 8px 8px 0px 0px var(--gray-950);
     background-color: var(--white);
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container > * {
+    margin-bottom: 24px;
 }
 
 .content {
     height: 194px;
     background-color: var(--white);
-    margin-bottom: 24px;
     display: flex;
     flex-direction: column;
 }
