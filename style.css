@@ -1,0 +1,110 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
+
+* {
+    box-sizing: border-box;
+    letter-spacing: 0px;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+}
+
+img {
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.main-container {
+    height: 522px;
+    width: 384px;
+    border: 1px solid var(--gray-950);
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px var(--gray-950);
+    background-color: var(--white);
+    padding: 24px;
+}
+
+.content {
+    margin-top: 24px;
+    height: 194px;
+    background-color: var(--white);
+    margin-bottom: 24px;
+}
+
+.content > * {
+    margin-bottom: 1px;
+}
+
+.category {
+    display: flex;
+    width: 82px;
+    height: 29px;
+    background-color: var(--yellow);
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.category h3 {
+    font-family: 'Figtree Medium', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.date {
+    font-family: 'Figtree Medium', sans-serif;
+    font-size: 0.875rem;
+    line-height: 150%;
+}
+
+.title {
+    font-family: 'Figtree Extra Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 150%;
+    color: var(--yellow);
+}
+
+.description {
+    font-family: 'Figtree Medium', sans-serif;
+    font-size: 1rem;
+    line-height: 150%;
+    color: var(--gray-500)
+}
+
+.author-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 32px;
+}
+
+.author-name {
+    font-family: 'Figtree Medium', sans-serif;
+    font-size: 0.875rem;
+    line-height: 150%;
+    font-weight: bold;
+}
+
+.author-avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
